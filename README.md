@@ -1,16 +1,18 @@
-# app_d
+# Flutter Web App
 
-A new Flutter project.
+This is a Flutter web app that fetches user data from a public API and displays it in a responsive user interface. The app has multiple screens for users, posts, todos, albums, and galleries.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetches user data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users/) API.
+- Displays user cards with dummy profile pictures from [Picsum](https://picsum.photos/).
+- Allows navigation to posts, todos, albums, and galleries screens.
+- Retrieves and displays posts, todos, albums, and gallery images from corresponding APIs.
+## Dependencies
+http: For making HTTP requests.
+cached_network_image: For caching network images.
+carousel_slider: For creating a carousel of gallery images.
 
-A few resources to get you started if this is your first Flutter project:
+## Folder Structure
+/lib: Contains the Dart source code for the Flutter web app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
